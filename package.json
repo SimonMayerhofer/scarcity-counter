@@ -1,0 +1,51 @@
+{
+	"name": "scarcity-counter",
+	"version": "1.0.0",
+	"devDependencies": {
+		"@babel/cli": "7.0.0-beta.44",
+		"@babel/core": "7.0.0-beta.44",
+		"@babel/plugin-proposal-object-rest-spread": "7.0.0-beta.44",
+		"@babel/preset-env": "7.0.0-beta.44",
+		"babel-eslint": "8.2.3",
+		"babel-loader": "8.0.0-beta.2",
+		"babel-plugin-transform-class-properties": "6.24.1",
+		"eslint": "4.19.1",
+		"eslint-config-airbnb": "16.1.0",
+		"eslint-plugin-import": "2.11.0",
+		"glob": "7.1.2",
+		"grunt": "1.0.2",
+		"grunt-contrib-nodeunit": "1.0.0",
+		"grunt-contrib-watch": "1.0.1",
+		"grunt-dev-update": "2.3.0",
+		"grunt-eslint": "20.1.0",
+		"grunt-phpcbf": "0.1.1",
+		"grunt-phpcs": "0.4.0",
+		"grunt-phplint": "0.1.0",
+		"grunt-shrinkwrap": "1.1.1",
+		"grunt-webpack": "3.1.1",
+		"load-grunt-tasks": "3.5.2",
+		"webpack": "4.6.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:SimonMayerhofer/scarcity-counter.git"
+	},
+	"babel": {
+		"presets": [
+			[
+				"@babel/env",
+				{
+					"targets": {
+						"browsers": [
+							"last 3 versions",
+							"safari >= 8"
+						]
+					}
+				}
+			]
+		]
+	},
+	"dependencies": {
+		"@babel/polyfill": "7.0.0-beta.44"
+	}
+}
