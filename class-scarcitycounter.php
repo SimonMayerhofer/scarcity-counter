@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Scarcity Counter
  * Description: WordPress Plugin for artificial scarcity. Great for marketing purposes.
- * Version:     1.0.0
+ * Version:     1.1.0
  * Author:      Simon Mayerhofer
  * Author URI:  https://mayerhofer.it
  * Plugin URI:  https://github.com/SimonMayerhofer/scarcity-counter
