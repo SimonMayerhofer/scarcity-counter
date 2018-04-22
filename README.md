@@ -14,7 +14,7 @@ You can see it in action [on Codepen](https://codepen.io/maysi/full/NMGyOV/).
     [scarcity-counter id="id" start="27" min="3" reduction="3" timelimit="5000"]
 
 ### Attributes
-* **id** id to identify the counter. if used multiple times, the same number is shown. defaults to `id`.
+* **id** Unique id to identify the counter. **You should always use new ids on different pages!** If used multiple times on the same page, the same number is shown. defaults to `id`.
 * **start** number to start with. defaults to `27`.
 * **min** lower limit. the counter won't ever get below that limit. defaults to `3`.
 * **reduction** upper range limit. E.g. if 5 is set as the limit, the counter will be reduced by a number between 1 and 5. defaults to `3`.
